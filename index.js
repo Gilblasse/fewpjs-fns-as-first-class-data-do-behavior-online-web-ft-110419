@@ -13,3 +13,6 @@ function greet(stringTime) {
   debugger;
 }
 /* Write your implementation of displayMessage() */
+function greet(stringTime) {
+  debugger;
+}
