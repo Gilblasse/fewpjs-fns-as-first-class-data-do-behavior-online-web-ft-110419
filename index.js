@@ -20,8 +20,7 @@ function greet(stringTime) {
         break;
     default:
         "Good Evening";
-}
-
+  }
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(stringTime) {
