@@ -10,7 +10,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(stringTime) {
-  debugger;
+  num = parseInt(stringTime.split(":")[0]);
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(stringTime) {
