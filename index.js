@@ -10,6 +10,6 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(stringTime) {
-  
+  debugger;
 }
 /* Write your implementation of displayMessage() */
