@@ -19,7 +19,7 @@ function greet(stringTime) {
         "Good Afternoon";
         break;
     default:
-        ;
+        "Good Evening";
 }
 
 }
