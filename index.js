@@ -12,6 +12,7 @@ function handleClick(e) {
 function greet(stringTime) {
   const num = parseInt(stringTime.split(":")[0]);
   let sen;
+  
   debugger;
   switch(num) {
     case num < 12:
