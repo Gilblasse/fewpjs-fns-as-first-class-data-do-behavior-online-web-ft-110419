@@ -28,8 +28,8 @@ function greet(stringTime) {
 /* Write your implementation of displayMessage() */
 function displayMessage(string) {
   let gretting = document.querySelector('h1#greeting');
-  debugger;
   gretting.innerText = string;
+  debugger;
 }
 
 
