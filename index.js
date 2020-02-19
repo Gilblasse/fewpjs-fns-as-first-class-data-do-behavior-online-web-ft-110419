@@ -16,7 +16,7 @@ function greet(stringTime) {
          "Good Morning";
         break;
     case num > 12 && num < 17
-        ;
+        "Good Afternoon";
         break;
     default:
         ;
