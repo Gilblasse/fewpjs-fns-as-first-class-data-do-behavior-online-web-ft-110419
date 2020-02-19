@@ -15,9 +15,9 @@ function greet(stringTime) {
     if (num < 12) {
        textvalue = "Good Morning"
     }else if (num > 12 && num < 17){
-        textvalue = "Good afternoon"
+        textvalue = "Good Afternoon"
     }else {
-        textvalue = "Good evening"
+        textvalue = "Good Evening"
     }
   return textvalue
 }
