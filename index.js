@@ -11,7 +11,17 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(stringTime) {
   num = parseInt(stringTime.split(":")[0]);
-  switch(num)
+  switch(num) {
+    case num < 12
+        darkOrLight = "Light";
+        break;
+    case num > 12 && num < 17
+        darkOrLight = "Dark";
+        break;
+    default:
+        darkOrLight = "Unknown";
+}
+
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(stringTime) {
