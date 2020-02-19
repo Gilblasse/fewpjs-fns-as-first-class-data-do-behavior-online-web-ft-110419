@@ -13,16 +13,16 @@ function greet(stringTime) {
   const num = parseInt(stringTime.split(":")[0]);
   let sen;
   switch(num) {
-    case num < 12
+    case num < 12:
          sen = "Good Morning";
         break;
-    case num > 12 && num < 17
+    case num > 12 && num < 17:
         sen = "Good Afternoon";
         break;
     default:
         sen = "Good Evening";
   }
-  return sen
+  return sen;
 }
 
 /* Write your implementation of displayMessage() */
