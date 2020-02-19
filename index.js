@@ -10,7 +10,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(stringTime) {
-  let num = parseInt(stringTime.split(":")[0]);
+  const num = parseInt(stringTime.split(":")[0]);
   let sen;
   switch(num) {
     case num < 12
