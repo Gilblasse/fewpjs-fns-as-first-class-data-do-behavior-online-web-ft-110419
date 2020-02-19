@@ -10,18 +10,21 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(stringTime) {
-  num = parseInt(stringTime.split(":")[0]);
+  let num = parseInt(stringTime.split(":")[0]);
+  let sen;
   switch(num) {
     case num < 12
-         return "Good Morning";
+         sen = "Good Morning";
         break;
     case num > 12 && num < 17
-        "Good Afternoon";
+        sen = "Good Afternoon";
         break;
     default:
-        "Good Evening";
+        sen = "Good Evening";
   }
+  return sen
 }
+
 /* Write your implementation of displayMessage() */
 function displayMessage(string) {
   debugger;
