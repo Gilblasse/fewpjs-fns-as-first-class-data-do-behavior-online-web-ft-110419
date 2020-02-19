@@ -12,7 +12,7 @@ function handleClick(e) {
 function greet(stringTime) {
   const num = parseInt(stringTime.split(":")[0]);
   let sen;
-  
+  if (num < 12) "morning" || (num >= 12 && num < 17) ? "afternoon": "evening"
   debugger;
   switch(num) {
     case num < 12:
