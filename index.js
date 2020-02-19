@@ -13,7 +13,7 @@ function greet(stringTime) {
   num = parseInt(stringTime.split(":")[0]);
   switch(num) {
     case num < 12
-        ;
+         "Good Morning";
         break;
     case num > 12 && num < 17
         ;
