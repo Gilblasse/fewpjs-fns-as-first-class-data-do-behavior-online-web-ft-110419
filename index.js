@@ -11,7 +11,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(stringTime) {
   num = parseInt(stringTime.split(":")[0]);
-  num < 12 ? "Good Morning" :
+  switch(num)
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(stringTime) {
