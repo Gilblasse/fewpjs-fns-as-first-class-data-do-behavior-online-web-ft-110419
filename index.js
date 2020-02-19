@@ -13,11 +13,11 @@ function greet(stringTime) {
   const num = parseInt(stringTime.split(":")[0]);
   let textvalue; 
     if (num < 12) {
-       textvalue = "morning"
+       textvalue = "Good Morning"
     }else if (num > 12 && num < 17){
-        textvalue = "aft"
+        textvalue = "Good afternoon"
     }else {
-        textvalue = "eve"
+        textvalue = "Good evening"
     }
   return textvalue
 }
